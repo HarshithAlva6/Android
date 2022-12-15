@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/firstActivityBG"
+    android:background="@color/material_dynamic_tertiary80"
     android:orientation="vertical">
 
     <LinearLayout
@@ -19,7 +19,9 @@
             android:layout_height="240dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="60dp"
-            android:background="@drawable/road_level_meter" />
+            android:background="@drawable/road_level_meter"
+            android:text="this is text"
+            android:textColor="#FFFFFF"/>
 
         <ImageButton
             android:id="@+id/qrCodeBtn"
@@ -27,9 +29,7 @@
             android:layout_height="240dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="60dp"
-            android:background="@color/firstActivityBG"
-            android:src="@drawable/qr_code" />
-
+            android:background="@drawable/qr_code" />
 
     </LinearLayout>
 </RelativeLayout>

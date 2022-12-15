@@ -12,11 +12,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val levelMeterBtn = findViewById(R.id.levelMeterBtn) as ImageButton
+        val qrCodeBtn = findViewById(R.id.qrCodeBtn) as ImageButton
 
         // goes to levelMeter Application
         levelMeterBtn.setOnClickListener {
             Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
             val intent = Intent(this,LevelMeterActivity::class.java)
+            startActivity(intent)
+        }
+
+        // goes to levelMeter Application
+        qrCodeBtn.setOnClickListener {
+            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,SplashActivity::class.java)
             startActivity(intent)
         }
     }

@@ -20,12 +20,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,LevelMeterActivity::class.java)
             startActivity(intent)
         }
-
-        // goes to levelMeter Application
-        qrCodeBtn.setOnClickListener {
-            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this,SplashActivity::class.java)
-            startActivity(intent)
-        }
     }
 }

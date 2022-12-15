@@ -19,9 +19,7 @@
             android:layout_height="240dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="60dp"
-            android:background="@drawable/road_level_meter"
-            android:text="this is text"
-            android:textColor="#FFFFFF"/>
+            android:background="@drawable/road_level_meter"/>
 
         <ImageButton
             android:id="@+id/qrCodeBtn"

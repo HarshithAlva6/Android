@@ -9,4 +9,13 @@
     <color name="white">#FFFFFFFF</color>
     <color name="firstActivityBG">#f9f3d8</color>
     <color name="actionBar">#0b4204</color>
+
+    <!-- QR Scanner -->
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1565c0</color>
+    <color name="colorAccent">#0097A7</color>
+    <color name="colorTranslucent">#50000000</color>
+    <color name="lightColor">#64E71A</color>
+    <color name="lightGray">#D1D0D0</color>
+    <color name="darkBrown">#2B2828</color>
 </resources>

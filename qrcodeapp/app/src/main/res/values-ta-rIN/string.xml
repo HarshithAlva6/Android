@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan">ஊடுகதிர்</string>
+    <string name="recent_scanned">சமீபத்தில் ஸ்கேன் செய்யப்பட்டது</string>
+    <string name="favourites">ிடித்தவை</string>
+</resources>

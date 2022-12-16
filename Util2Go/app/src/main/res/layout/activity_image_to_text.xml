@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageToText">
+
+    <ImageView
+        android:id="@+id/idImage"
+        android:layout_width="343dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <fragment
+        android:id="@+id/fragment_view"
+        android:name="com.bignerdranch.android.speec_to_text.ImageFragment"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/firstButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:text="Add Image"
+        app:backgroundTint="#0060AC"
+        app:layout_constraintBottom_toTopOf="@+id/idImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/fragment_view2"
+        android:name="com.bignerdranch.android.speec_to_text.NotesFragment"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/idImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/secButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extract Text"
+        app:backgroundTint="#0060AC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

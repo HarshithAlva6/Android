@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "imagetotext",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-12-15T10:07:07.649Z"
+}

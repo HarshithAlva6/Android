@@ -1,0 +1,14 @@
+{
+  "resourceName": "Notes",
+  "tableName": "Notes",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "sortKey": {
+    "fieldName": "description",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

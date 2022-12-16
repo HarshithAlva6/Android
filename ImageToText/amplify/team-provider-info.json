@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-imagetotext-dev-144632-authRole",
+      "UnauthRoleArn": "arn:aws:iam::689792294971:role/amplify-imagetotext-dev-144632-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::689792294971:role/amplify-imagetotext-dev-144632-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-imagetotext-dev-144632-deployment",
+      "UnauthRoleName": "amplify-imagetotext-dev-144632-unauthRole",
+      "StackName": "amplify-imagetotext-dev-144632",
+      "StackId": "arn:aws:cloudformation:us-west-1:689792294971:stack/amplify-imagetotext-dev-144632/287b8ab0-7c01-11ed-a2b9-0207d0e8852f",
+      "AmplifyAppId": "d1owrljjdr2ee2"
+    },
+    "categories": {
+      "api": {
+        "imagetotext": {}
+      },
+      "auth": {
+        "imagetotext66a69b90": {}
+      },
+      "storage": {
+        "Notes": {}
+      }
+    }
+  }
+}

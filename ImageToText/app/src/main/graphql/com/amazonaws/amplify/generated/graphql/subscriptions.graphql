@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateNotes($filter: ModelSubscriptionNotesFilterInput) {
+  onCreateNotes(filter: $filter) {
+    id
+    description
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateNotes($filter: ModelSubscriptionNotesFilterInput) {
+  onUpdateNotes(filter: $filter) {
+    id
+    description
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteNotes($filter: ModelSubscriptionNotesFilterInput) {
+  onDeleteNotes(filter: $filter) {
+    id
+    description
+    createdAt
+    updatedAt
+  }
+}

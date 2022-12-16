@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837299730276",
+    "project_id": "cpsc411-finalproject",
+    "storage_bucket": "cpsc411-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837299730276:android:815b45e7fee1ade330ac71",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.speec_to_text"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837299730276-057qplo20046fhach7ujh6eqtn66oeka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPxGThjRzrIZXdkLdYU90oGPsv3EpxBjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837299730276-057qplo20046fhach7ujh6eqtn66oeka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Util2go</string>
+    <string name="emailEdit">Email</string>
+    <string name="passwordEdit">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="forgotPasswordText">Register</string>
+    <string name="Welcomeuser"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

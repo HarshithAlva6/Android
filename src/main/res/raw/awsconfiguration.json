@@ -1,0 +1,57 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://6lt4kpxmwbdobhgd4sn7oubfwu.appsync-api.us-west-1.amazonaws.com/graphql",
+            "Region": "us-west-1",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-cemcyfyrvncqbljxebmahshyzu",
+            "ClientDatabasePrefix": "imagetotext_API_KEY"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-west-1:9eee2b19-71bb-4b90-bfa6-b2e01f17e538",
+                "Region": "us-west-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-west-1_TQJP94alp",
+            "AppClientId": "61s71gmcecaoq2ne0flg4n5omc",
+            "Region": "us-west-1"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "authenticationFlowType": "USER_SRP_AUTH",
+            "socialProviders": [],
+            "usernameAttributes": [],
+            "signupAttributes": [
+                "EMAIL"
+            ],
+            "passwordProtectionSettings": {
+                "passwordPolicyMinLength": 8,
+                "passwordPolicyCharacters": []
+            },
+            "mfaConfiguration": "OFF",
+            "mfaTypes": [
+                "SMS"
+            ],
+            "verificationMechanisms": [
+                "EMAIL"
+            ]
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-west-1"
+        }
+    }
+}
